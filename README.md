@@ -1,4 +1,10 @@
 # Soundboard
 
 * D
-  * <button class="naisu">Naisu</button>  
+  * <button onclick="myFunction()">Naisu</button>
+
+<script>
+ function myFunction() {
+     alert("test");
+ }
+</script>
