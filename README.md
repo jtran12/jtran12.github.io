@@ -19,27 +19,5 @@
   var audiofile = '/sounds/' + name + '.wav';
   var audio = new Audio(audiofile);
   audio.play();
-  alert("hi");
-  
-  //if (name === 'naisu'){
-  // var audio = new Audio('/sounds/d-naisu.wav');
-  //}
-  //else if (name === 'fraghunt'){
-  // var audio = new Audio('/sounds/d-what-a-frag-hunter.wav');
-  //}
-  //else if (name === 'g-nice'){
-  // var audio = new Audio('/sounds/g-nice.wav');
-  //}
-  //else if (name === 'g-wat'){
-  // var audio = new Audio('/sounds/g-wat.wav');
-  //}
-  //else if (name === 'r-why-behind'){
-  // var audio = new Audio('/sounds/r-why-behind.wav');
-  //}
-  //else if (name === 'tran-wat'){
-  // var audio = new Audio('/sounds/tran-WAT.wav');
-  //}
-  
-  audio.play();
  }
 </script>
