@@ -1,8 +1,8 @@
 # Soundboard
 
 * D
-  * <button onclick="myFunction('naisu')">Naisu</button>
-  * <button onclick="myFunction('fraghunt')">What a frag hunter</button> 
+  * <button onclick="myFunction('d-naisu')">Naisu</button>
+  * <button onclick="myFunction('d-what-a-frag-hunter')">What a frag hunter</button> 
   
 * G
   * <button onclick="myFunction('g-nice')">nice</button>
@@ -16,6 +16,11 @@
 
 <script>
  function myFunction(name) {
+  var audiofile = '/sounds/' + name + '.wav';
+  var audio = new Audio(audiofile);
+  audio.play();
+  alert("hi");
+  /*
   if (name === 'naisu'){
    var audio = new Audio('/sounds/d-naisu.wav');
   }
@@ -34,7 +39,7 @@
   else if (name === 'tran-wat'){
    var audio = new Audio('/sounds/tran-WAT.wav');
   }
-  
+  */
   audio.play();
  }
 </script>
