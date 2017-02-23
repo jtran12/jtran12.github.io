@@ -12,7 +12,7 @@
   * <button onclick="myFunction('r-why-behind')">What why</button>
 
 * T
-  * <button onclick="myFunction('tran-wat')">WAT</button>
+  * <button onclick="myFunction('tran-WAT')">WAT</button>
 
 <script>
  function myFunction(name) {
