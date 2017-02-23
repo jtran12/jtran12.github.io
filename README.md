@@ -7,7 +7,10 @@
 * G
   * <button onclick="myFunction('g-nice')">nice</button>
   * <button onclick="myFunction('g-wat')">wat</button>
-  
+
+* R
+  * <button onclick="myFunction('r-why-behind')">What why</button>
+
 * T
   * <button onclick="myFunction('tran-wat')">WAT</button>
 
@@ -24,6 +27,9 @@
   }
   else if (name === 'g-wat'){
    var audio = new Audio('/sounds/g-wat.wav');
+  }
+  else if (name === 'r-why-behind'){
+   var audio = new Audio('/sounds/r-why-behind.wav');
   }
   else if (name === 'tran-wat'){
    var audio = new Audio('/sounds/tran-WAT.wav');
