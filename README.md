@@ -5,6 +5,7 @@
 
 <script>
  function myFunction() {
-     alert("test");
+  var audio = new Audio('/sounds/david-naisu.wav');
+  audio.play();
  }
 </script>
