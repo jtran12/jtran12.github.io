@@ -8,7 +8,7 @@
   * <button onclick="myFunction('g-nice')">nice</button>
   * <button onclick="myFunction('g-wat')">wat</button>
 
-* R
+* Ro
   * <button onclick="myFunction('r-why-behind')">What why</button>
 
 * T
