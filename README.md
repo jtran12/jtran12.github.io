@@ -19,11 +19,9 @@
 
 # Calculator
 
-<form>
   Bankroll <input type="number" name="total"><br>
   Initial<input type="number" name="initial"><br>
   <button onclick="calculate(total, initial)">Submit</button>
-</form>
 
 <div id="total"></div>
 
