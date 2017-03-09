@@ -17,13 +17,11 @@
 * T
   * <button onclick="myFunction('tran-WAT')">WAT</button>
 
-# Calculator
+# Notes
 
-  Bankroll <input type="number" name="total"><br>
-  Initial<input type="number" name="initial"><br>
-  <button onclick="calculate(total, initial)">Submit</button>
-
-<div id="total"></div>
+7100
+5680
+4753
 
 
 <script>
@@ -34,16 +32,6 @@
   audio.play();
  }
  
- function calculate(total, initial) {
-  var count = 0;
-  while ((total - initial) >= initial){
-   count = count + 1;
-   total = total - initial;
-   initial = initial*2;
-  }
-  document.getElementById('total').innerHTML = count;
-  
- }
  
  
 </script>
