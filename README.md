@@ -19,6 +19,11 @@
 
 # Calculator
 
+<form>
+  Bankroll <input type="number" name="total"><br>
+  Initial <input type="number" name="initial"><br>
+  <input type="submit" value="Submit">
+</form>
 
 <script>
  function myFunction(name) {
