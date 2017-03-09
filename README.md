@@ -21,14 +21,27 @@
 
 <form>
   Bankroll <input type="number" name="total"><br>
-  Initial <input type="number" name="initial"><br>
-  <input type="submit" value="Submit">
+  Initial    <input type="number" name="initial"><br>
+  <input type="submit" value="Submit" onclick="calculate(total, initial)">
 </form>
 
 <script>
+
  function myFunction(name) {
   var audiofile = '/sounds/' + name + '.wav';
   var audio = new Audio(audiofile);
   audio.play();
  }
+ 
+ function calculate(total, initial) {
+  var count = 0;
+  while ((total - initial) >= initial){
+   count = count + 1;
+   total = total - initial;
+  }
+  alert(count);
+  
+ }
+ 
+ 
 </script>
