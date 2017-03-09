@@ -22,7 +22,7 @@
 <form>
   Bankroll <input type="number" name="total"><br>
   Initial    <input type="number" name="initial"><br>
-  <input type="submit" value="Submit" onclick="calculate(total, initial)">
+  <button onclick="calculate(total, initial)">WAT</button>
 </form>
 
 <script>
