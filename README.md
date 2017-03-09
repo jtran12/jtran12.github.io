@@ -25,6 +25,9 @@
   <button onclick="calculate(total, initial)">Submit</button>
 </form>
 
+<div id="total"></div>
+
+
 <script>
 
  function myFunction(name) {
@@ -38,9 +41,9 @@
   while ((total - initial) >= initial){
    count = count + 1;
    total = total - initial;
-   initial = initial*2
+   initial = initial*2;
   }
-  alert(count);
+  document.getElementById('total').innerHTML = count;
   
  }
  
