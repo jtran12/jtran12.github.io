@@ -21,7 +21,7 @@
 
 <form>
   Bankroll <input type="number" name="total"><br>
-  Initial    <input type="number" name="initial"><br>
+  Initial<input type="number" name="initial"><br>
   <button onclick="calculate(total, initial)">Submit</button>
 </form>
 
@@ -38,6 +38,7 @@
   while ((total - initial) >= initial){
    count = count + 1;
    total = total - initial;
+   initial = initial*2
   }
   alert(count);
   
