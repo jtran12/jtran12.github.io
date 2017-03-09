@@ -17,6 +17,9 @@
 * T
   * <button onclick="myFunction('tran-WAT')">WAT</button>
 
+# Calculator
+
+
 <script>
  function myFunction(name) {
   var audiofile = '/sounds/' + name + '.wav';
