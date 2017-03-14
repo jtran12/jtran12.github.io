@@ -12,7 +12,7 @@
   * <button onclick="myFunction('j-game-sucks')">Game sucks</button>
 
 * P
-  * <button onclick="myFunction('p-what')">Game sucks</button>
+  * <button onclick="myFunction('p-what')">What are you doing</button>
 
 * Ro
   * <button onclick="myFunction('r-why-behind')">What why</button>
