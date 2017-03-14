@@ -20,9 +20,6 @@
 * T
   * <button onclick="myFunction('tran-WAT')">WAT</button>
 
-# Notes
-
-
 
 <script>
 
@@ -31,7 +28,5 @@
   var audio = new Audio(audiofile);
   audio.play();
  }
- 
- 
  
 </script>
